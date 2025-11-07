@@ -25,12 +25,7 @@
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     transition: all 0.2s ease;
   "
-  onclick="if (/Mobi|Android/i.test(navigator.userAgent)) { 
-              window.location.href=this.href; 
-           } else { 
-              window.top.location.href=this.href; 
-           } 
-           return false;"
+  onclick="window.open(this.href, '_system'); return false;"
   onmouseover="this.style.backgroundColor='#de1ea6'; this.style.transform='scale(1.05)';"
   onmouseout="this.style.backgroundColor='#f15f9c'; this.style.transform='scale(1)';">
     🚀 S’INSCRIRE AU PROCHAIN CO-DEV
